@@ -6,11 +6,11 @@
 # if he is from the distant past (before 1900),
 # the present era (1900-2020) or from the far future (beyond 2020).
 
-year = int(input("Greetings! What is your year of origin? "))#1
+year = int(input("Greetings! What is your year of origin? "))#added int and "
 
 if year <= 1900:
-    print ("Woah, that's the past!")#1
-elif year > 1900 and year < 2020:#1
+    print ("Woah, that's the past!")#changed '' to ""
+elif year > 1900 and year < 2020:#changed && to and
     print ("That's totally the present!")
-else:#1
+else:#change elif to else
     print ("Far out, that's the future!!")
