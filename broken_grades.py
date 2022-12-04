@@ -21,26 +21,26 @@
 
 exam_one = int(input("Input exam grade one: "))
 
-exam_two = input("Input exam grade two: "))
+exam_two = int(input("Input exam grade two: "))#added int
 
-exam_3 = str(input("Input exam grade three: "))
+exam_3 = int(input("Input exam grade three: "))#removed str and added int
 
-grades = [exam_one exam_two exam_three]
+grades = [exam_one,exam_two, exam_3]#added commas and chnage the variable name
 sum = 0
-for grade in grade:
-  sum = sum + grade
+for i in range(len(grades)):#added range and length func.
+  sum = sum + grades[i]
 
-avg = sum / len(grdes)
+avg = sum / len(grades)#corrected spelling of variable
 
 if avg >= 90:
     letter_grade = "A"
-elif avg >= 80 and avg < 90
+elif avg >= 80 and avg < 90:#add colon
     letter_grade = "B"
 elif avg > 69 and avg < 80:
-    letter_grade = "C'
+    letter_grade = "C"# add correct quotation
 elif avg <= 69 and avg >= 65:
     letter_grade = "D"
-elif:
+else: #changing elif to else
     letter_grade = "F"
 
 for grade in grades:
@@ -50,7 +50,7 @@ for grade in grades:
 
     print("Grade: " + letter_grade)
 
-if letter-grade is "F":
-    print "Student is failing."
+if letter_grade is "F":#varible correction
+    print("Student is failing.")#added brackets
 else:
-    print "Student is passing."
+    print("Student is passing.") #added brackets
