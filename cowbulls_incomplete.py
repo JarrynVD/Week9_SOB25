@@ -35,4 +35,4 @@ while playing:
         print("You win the game after " + str(guesses) + "! The number was "+str(number))
         break #redundant exit
     else:
-        print("Your guess isn't quite right, try again. ")
+        print("Your guess isn't quite right, try again.")
