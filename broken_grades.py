@@ -23,9 +23,9 @@ exam_one = int(input("Input exam grade one: "))
 
 exam_two = int(input("Input exam grade two: "))#added int
 
-exam_3 = int(input("Input exam grade three: "))#removed str and added int
+exam_three = int(input("Input exam grade three: "))#removed str and added int
 
-grades = [exam_one,exam_two, exam_3]#added commas and chnage the variable name
+grades = [exam_one,exam_two, exam_three]#added commas and chnage the variable name
 sum = 0
 for i in range(len(grades)):#added range and length func.
   sum = sum + grades[i]
